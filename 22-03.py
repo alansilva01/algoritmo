@@ -139,19 +139,21 @@
 #     print('O valor do produto com desconto de 10% é:', preco-d10)
 # except:
 #     print('Digite um número!')
+#
+# #12
+# try:
+#     sal=float(input('Digite o salário: '))
+#     imp15= sal*(15/100)
+#     imp7= sal*(7.5/100)
+#     if sal>=3000:
+#         print('Salário:',sal)
+#         print('Imposto de 15%!:', imp15)
+#         print('Salário líquido:', sal-imp15)
+#     else:
+#         print('Salário:',sal)
+#         print('Imposto de 7,5%!:', imp7)
+#         print('Salário líquido:', sal-imp7)
+# except:
+#     print('Digite apenas números!')
 
-#12
-try:
-    sal=float(input('Digite o salário: '))
-    imp15= sal*(15/100)
-    imp7= sal*(7.5/100)
-    if sal>=3000:
-        print('Salário:',sal)
-        print('Imposto de 15%!:', imp15)
-        print('Salário líquido:', sal-imp15)
-    else:
-        print('Salário:',sal)
-        print('Imposto de 7,5%!:', imp7)
-        print('Salário líquido:', sal-imp7)
-except:
-    print('Digite apenas números!')
+#13
