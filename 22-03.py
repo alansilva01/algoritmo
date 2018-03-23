@@ -109,24 +109,30 @@
 #     print('Digite apenas números!')
 #
 #10
+# try:
+#     print('=====Menu de opções:=====')
+#     print('1. Soma de 2 números:')
+#     print('2. Potência de um número:')
+#     print('3. Raiz de grau N:')
+#     op= int(input('Digite a opção desejada: '))
+#     if op==1:
+#         num1= int(input('Digite o primeiro número: '))
+#         num2= int(input('Digite o segundo número: '))
+#         print('A soma é:', num1+num2)
+#     elif op==2:
+#         num3= int(input('Digite um número: '))
+#         pot= int(input('Digite a potencia a ser elevado: '))
+#         print(num3, 'elevado à ',pot,'é igual a: ',num3**pot)
+#     elif op==3:
+#         num4= int(input('Digite um número:'))
+#         raiz= int(input('Digite o valor da potência da raiz:'))
+#         print('A raiz',raiz, 'de',num4,'é: ',num4**(1/raiz))
+#     else:
+#         print('Escolha entre 1, 2 e 3!')
+# except:
+#     print('Digite apenas números!')
+
+#11
 try:
-    print('Menu de opções:')
-    print('1. Soma de 2 números:')
-    print('2. Potência de um número:')
-    print('3. Raiz de grau N:')
-    op= int(input('Digite a opção desejada:'))
-    if op==1:
-        num1= int(input('Digite o primeiro número:'))
-        num2= int(input('Digite o segundo número:'))
-        print('A soma é:', num1+num2)
-    elif op==2:
-        num3= int(input('Digite um número'))
-        pot= int(input('Digite a potencia a ser elevado:'))
-        print(num3, 'elevado à ',pot,'é igual a: ',num3**pot)
-    elif op==3:
-        num4= int(input('Digite um número:'))
-        raiz= int(input('Digite o valor da potência da raiz:'))
-        print('A raiz',raiz, 'de',num4,'é: ',num4**(1/raiz))
-    else:
-        print('Escolha entre 1, 2 e 3!')
-exc
+    preco=float(input('Digite o valor do produto:'))
+    print
